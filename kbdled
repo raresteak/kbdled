@@ -1,8 +1,8 @@
 #!/bin/bash
 #TITLE: kbdled
-#DESCRIPTION: Blink the Caps Lock key led using morse code
+#DESCRIPTION: Blink a keyboard led key using Morse Code
 #AUTHOR: Raresteak
-#VERSION: 0.2
+#VERSION: 0.3
 #USAGE: ./kbdled "some text"
 #DEPENDENCIES: xdotool package installed
 
@@ -17,8 +17,9 @@ KEY="Num_Lock"
 # Do not make changes past this line.
 Help () {
 echo -e "NAME:
-	 kbdled - Blink Caps Lock key 
-	 Requires xdotool 
+	 kbdled - Blink Caps Lock, Num Lock, or Scroll keys
+REQUIRES: 
+	 xdotool package
 EXAMPLES: 
 	./kbdled \"the quick brown fox jumps over the lazy dog\"
 "
