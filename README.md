@@ -1,5 +1,5 @@
 # Readme
-Visually send Morse Code from the caps lock key LED.  
+Visually send Morse Code from a keyboard LED (Num Lock, Caps Lock, or Scroll Lock.  
 
 I was inspired by a paper written by Mordechai Guri, Boris Zadov, Dima Bykhovsky, Yuval Elovici titled "CTRL-ALT-LED: Leaking Data from Air-Gapped Computers via Keyboard LEDs" https://arxiv.org/pdf/1907.05851.pdf
 
