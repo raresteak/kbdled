@@ -1,5 +1,5 @@
 # Readme
-Visually send morse code from the caps lock key LED.  
+Visually send Morse Code from the caps lock key LED.  
 
 I was inspired by a paper written by Mordechai Guri, Boris Zadov, Dima Bykhovsky, Yuval Elovici titled "CTRL-ALT-LED: Leaking Data from Air-Gapped Computers via Keyboard LEDs" https://arxiv.org/pdf/1907.05851.pdf
 
@@ -19,4 +19,10 @@ sudo yum install xdotool
 ```
 ./kbdled "the quick brown fox jumps over the lazy dog"
 ```
-Change the morse code speed by changing the TIME variable at the top of the script.
+Change the Morse Code speed by changing the TIME variable at the top of the script.
+
+### Scenarios:
+* Irritate your co-workers
+* As part of other scripting, report high temp conditions of machines in a lab. 
+* Upon boot, report IP address of DHCP supplied address
+* Blink SOS if a machine needs attention
