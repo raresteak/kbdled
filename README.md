@@ -21,6 +21,8 @@ sudo yum install xdotool
 ```
 Change the Morse Code speed by changing the TIME variable at the top of the script.
 
+Change led to blink by changing the KEY variable at the top of the script.
+
 ### Scenarios:
 * Irritate your co-workers
 * As part of other scripting, report high temp conditions of machines in a lab. 
