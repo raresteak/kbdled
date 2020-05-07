@@ -1,5 +1,5 @@
 # Readme
-Send morse code with the caps lock key LED.  
+Visually send morse code from the caps lock key LED.  
 
 ### Requires:
 
