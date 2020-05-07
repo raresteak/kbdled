@@ -2,7 +2,7 @@
 #TITLE: kbdled
 #DESCRIPTION: Blink the Caps Lock key led using morse code
 #AUTHOR: Raresteak
-#VERSION: 0.1
+#VERSION: 0.2
 #USAGE: ./kbdled "some text"
 #DEPENDENCIES: xdotool package installed
 
@@ -10,7 +10,10 @@
 # Speed of the morse code
 # .09 slower
 # .05 faster
-TIME=.09
+TIME=.05
+# Led to blink
+# Num_Lock, Caps_Lock, Scroll_Lock
+KEY="Num_Lock"
 # Do not make changes past this line.
 Help () {
 echo -e "NAME:
@@ -23,18 +26,18 @@ exit
 }
 
 Dash () {
-  xdotool key Caps_Lock
+  xdotool key $KEY
   sleep $TIME
   sleep $TIME
   sleep $TIME
-  xdotool key Caps_Lock
+  xdotool key $KEY
   sleep $TIME
 }
 
 Dot () {
-  xdotool key Caps_Lock
+  xdotool key $KEY
   sleep $TIME
-  xdotool key Caps_Lock
+  xdotool key $KEY
   sleep $TIME
 }
 
