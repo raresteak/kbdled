@@ -26,5 +26,3 @@ Change led to blink by changing the KEY variable at the top of the script.
 ### Known Issues:
 
 I did find an issue on some keyboards brands where the Num Lock or Caps Lock LED won't blink until I first physically press the lock key to turn it on once.  Then running kbdled works.
-* Upon boot, report IP address of DHCP supplied address
-* Blink SOS if a machine needs attention
