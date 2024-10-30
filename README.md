@@ -23,8 +23,8 @@ Change the Morse Code speed by changing the TIME variable at the top of the scri
 
 Change led to blink by changing the KEY variable at the top of the script.
 
-### Scenarios:
-* Irritate your co-workers
-* As part of other scripting, report high temp conditions of machines in a lab. 
+### Known Issues:
+
+I did find an issue on some keyboards brands where the Num Lock or Caps Lock LED won't blink until I first physically press the lock key to turn it on once.  Then running kbdled works.
 * Upon boot, report IP address of DHCP supplied address
 * Blink SOS if a machine needs attention
