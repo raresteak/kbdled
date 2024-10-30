@@ -2,7 +2,7 @@
 #TITLE: kbdled
 #DESCRIPTION: Blink a keyboard led key using Morse Code
 #AUTHOR: Raresteak
-#VERSION: 0.3
+#VERSION: 0.4
 #USAGE: ./kbdled "some text"
 #DEPENDENCIES: xdotool package installed
 
@@ -48,7 +48,7 @@ which xdotool 1>/dev/null || Help
 [[ "$#" -ne 1 ]] && Help
 
 TEXT=$(echo $1 | tr [:lower:] [:upper:] | tr -cd A-Z0-9' ')
-export DISPLAY=:0.0
+
 
 COUNT="0"
 while [ $COUNT -lt $[$(echo $TEXT | wc -c)-1] ] ; do
